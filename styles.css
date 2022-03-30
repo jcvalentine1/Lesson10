@@ -1,0 +1,203 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+
+/* Global styles
+------------------------------------*/
+body {
+  color: #373737;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+  float:auto;
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 20px 20px 100px 0px;
+  color: hsl (80, 175%, 96%);
+  text-align:center;
+}
+h2 {
+  margin: 2em 0em 0em 0em;
+  font-family:'Arial', Calibri, 'Trebuchet MS', sans-serif;
+  border-style: groove;
+  border-width: 3px;
+  text-align:center;
+}
+header img{
+  max-width:1700em;
+  margin:right;
+  padding: 0px 0px 0px 0px;
+  float: right;
+}
+header h4 {
+  font-style: italic;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0; 
+}
+nav ul a { 
+  text-decoration: none;
+  /*list-style:square;*/
+}
+nav ul {
+  list-style-type: none;
+}
+ul {
+  text-align: center; 	
+  list-style: none; 
+  color: #ffffff;
+}
+ul li {
+  display: inline-block;
+  font: bold 13px/17px sans-serif; 
+  position: relative;
+  padding: 17px 23px;
+  background: #4e7fb9; 
+  cursor: pointer;
+  color: #ffffff;
+}
+ul li:hover {
+  background: rgb(13, 177, 179);
+  color: #ffffff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute; 	
+  top: 51px; 		
+  left: -10000px; 
+  width: 158px;
+  color: #ffffff;
+}
+ul li ul li { 
+  background: #559; 
+  display: block;  		
+  color: rgb(255, 253, 253); 	
+  color: #ffffff;
+}
+ul li ul li:hover { background: rgb(13, 177, 179); color: #ffffff;}
+ul li:hover ul {
+  display: block;
+  padding: 0;
+  left :0px; 			
+  color: #ffffff;
+}
+
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #4e7fb9;
+  color: #F7FFF7;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #4b949e;
+  padding: 0em 1em 0em 1em;
+}
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #4b949e;
+}
+section img {
+  float: left;
+}
+.projects section {
+  float: left;
+  width: 30%;
+  margin:auto;
+  padding: .75em;
+  color: #123a91;
+}
+section h1 {
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 20px 20px 100px 0px;
+  color: #F7FFF7;
+  text-align:center;
+  font-size: 2em;
+}
+
+/* Education
+------------------------------------*/
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #4b949e;
+  color: #ffffff;
+}
+footer h2 {
+    clear: both;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer a {
+    color: #123a91;
+  }
+/*<div style="text-align:center">
+            <picture>
+            
+              <source media="(max-width: 5775px)" srcset="images/PortfolioImage (1).jpg">
+              <source media="(max-width: 1000px)" srcset="images/Creative_Portrait750.jpg">
+              <source srcset="images/Creative_Portrait1000.jpg">
+              <img src="images/portrait_750.jpg"
+            alt="Creative portrait of myself, graphic design student">
+             </picture>
+              
+          </div>
+          
+          <img src="images/PortfolioImage (1).jpg" alt="Book Covers">
+          <source media="(max-width: 5775px)" srcset="images/PortfolioImage (1).jpg">
+          <source srcset="images/PortfolioImage (1).jpg">
+          <section>
+				<h1>Primary Column</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet, ipsum nec consectetur eleifend, dolor ante vehicula justo, sed pretium leo nibh eget augue. Aliquam ut odio eu nulla lobortis feugiat. Donec gravida metus vitae egestas feugiat. Aliquam erat volutpat. Nullam lectus libero, lacinia vitae est vitae, blandit vulputate erat. Aliquam eu quam eget ligula blandit gravida. Ut lacinia condimentum congue. Suspendisse pulvinar cursus auctor. </p>
+					
+			</section>
+		
+			<aside>
+				<h1>Secondary Column</h1>
+				<p>Curabitur non aliquam diam. In aliquam ullamcorper nulla eu ultrices. Maecenas pulvinar blandit bibendum. Donec dictum odio et egestas bibendum. Proin sit amet lacus quis magna tempor pulvinar. Phasellus dignissim diam purus, at euismod ligula sodales vel. Sed nisi ante, mollis at molestie scelerisque, tempus quis enim. Pellentesque eleifend orci non orci egestas, id elementum ipsum ornare. Pellentesque molestie, odio ut pulvinar pharetra, mi erat interdum lacus.</p>
+				
+			</aside>*/
